@@ -3,9 +3,11 @@
 Usage:
 
 POST a completed deployment to the API:
+
 curl -H "Content-Type: aaplication/json" -X POST -d '{"DeploymentName":"Deploy-2","Status":"Done"}' http://servername/deploymentpush
 
 GET Status of Deployment:
+
 http://servername/deployments/<deployment name>
   
 
