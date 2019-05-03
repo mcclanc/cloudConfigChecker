@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name checker.cmbu.local;
+    server_name changeme;
 
     location / {
         include uwsgi_params;
