@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve checker
+After=network.target
+
+[Service]
+User=demouser
+Group=www-data
+WorkingDirectory=/checker
+Environment="PATH=/checker/checker/bin"
+ExecStart=/checker/checker/bin/uwsgi --ini checker.ini
+
+[Install]
+WantedBy=multi-user.target
