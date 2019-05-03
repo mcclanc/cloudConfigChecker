@@ -4,7 +4,7 @@ Usage:
 
 POST a completed deployment to the API:
 
-curl -H "Content-Type: aaplication/json" -X POST -d '{"DeploymentName":"Deploy-2","Status":"Done"}' http://servername/deploymentpush
+curl -H "Content-Type: application/json" -X POST -d '{"DeploymentName":"Deploy-2","Status":"Done"}' http://servername/deploymentpush
 
 GET Status of Deployment:
 
